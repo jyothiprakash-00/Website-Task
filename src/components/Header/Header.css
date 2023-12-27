@@ -1,0 +1,27 @@
+/* NAVIGATION BAR */
+:root {
+    --mobile-menu-opacity: 0;
+}
+.navbar{
+    position: absolute;
+    z-index: 1;
+}
+.selected {
+    color: #004eff;
+}
+.mobile-menu {
+    position: fixed;
+    height: 100vh;
+    animation: fadeIn 0.5s ease-out;
+}
+.btn-play {
+    width: 3.5rem;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

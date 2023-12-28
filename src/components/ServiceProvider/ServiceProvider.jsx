@@ -4,11 +4,11 @@ import "./ServiceProvider.css";
 function ServiceProvider() {
   return (
     <div className="xl:h-screen h-fit xl:px-24 xl:mt-0 mt-[275px]  flex justify-center items-center">
-      <div className="Img rounded-[2rem] shadow-2xl flex justify-center items-center">
+      <div className="Img rounded-[2rem]  flex justify-center items-center">
         <div className="xl:w-3/4 xl:py-40 py-8 xl:px-0 px-8">
         <div className="flex flex-row mb-6">
             <div style={{ width: "8px", height: "8px", backgroundColor: "blue" }}
-              className="blueIcon m-2 shadow"
+              className="m-2 "
             ></div>
             <h1 className="font-medium">The Best AI Service Provider</h1>
           </div>

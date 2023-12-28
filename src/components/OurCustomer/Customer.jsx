@@ -22,7 +22,7 @@ function Customers() {
     slidesToShow: 5,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 2000, // Change the delay as needed (in milliseconds)
+    autoplaySpeed: 2000, 
   };
 
   return (

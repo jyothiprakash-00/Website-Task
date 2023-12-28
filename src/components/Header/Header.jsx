@@ -16,7 +16,6 @@ function Header() {
                     <img src="https://www.ombrulla.com/logo.svg" alt="Ombrulla Logo" class="cursor-pointer h-8 md:h-8" />
                 </div>
 
-                {/* Hamburger Icon for Mobile */}
                 <button className="flex md:hidden" onClick={toggleDrawer} style={{ zIndex: 2 }} >
                 {!isDrawerOpen ? (
                     <i className="fa-solid fa-bars text-3xl text-blue-600"></i>
@@ -26,7 +25,6 @@ function Header() {
                 </button>
                 <div className={`md:hidden ${ isDrawerOpen ? "block" : "hidden" } fixed top-0 left-0 h-full mobile-menu`} style={{ zIndex: 100, backgroundColor: "white", width: "70%" }} >
 
-                    {/* Side Drawer Content */}
                     <div className="flex items-center justify-center border-b-2 " style={{ backgroundColor: "#f3f4f6", height: "100px" }} >
                         <img src="https://www.ombrulla.com/logo.svg" alt="Ombrulla Logo" class="cursor-pointer h-8 md:h-8" />
                     </div>

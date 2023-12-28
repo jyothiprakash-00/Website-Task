@@ -80,7 +80,6 @@ function Infrastructure() {
           </div>
         </div>
         <div className="w-full xl:w-1/2 flex justify-center items-center hidden md:flex">
-          {/* Hidden on screens smaller than md (medium) */}
           <img
             src="https://www.ombrulla.com/_astro/ai-infrastructure-inspection.c8f30cbf_ZEO7he.webp"
             alt=""

@@ -5,7 +5,6 @@ function Visual() {
     <div className="xl:h-screen xl:px-24 flex justify-center items-center">
       <div className="xl:w-full xl:flex">
         <div className="w-full xl:w-1/2 flex justify-center items-center hidden md:flex">
-          {/* Hidden on screens smaller than md (medium) */}
           <img
             src="https://www.ombrulla.com/_astro/ai-visual-inspection.7625d432_2nYhqo.webp"
             alt=""
